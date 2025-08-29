@@ -1,0 +1,39 @@
+﻿<Window x:Class="Lab02wpf.IngresosWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Registro de Ingresos" Height="619" Width="561">
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="0*"/>
+        </Grid.RowDefinitions>
+        <StackPanel>
+            <Label Content="Tipo Documento"/>
+            <TextBox x:Name="txtTipoDocumento" Margin="5"/>
+
+            <Label Content="Número Documento"/>
+            <TextBox x:Name="txtNumeroDocumento" Margin="5"/>
+
+            <Label Content="Placa"/>
+            <TextBox x:Name="txtPlaca" Margin="5"/>
+
+            <Label Content="Turno"/>
+            <TextBox x:Name="txtTurno" Margin="5"/>
+
+            <Label Content="Nombre Conductor"/>
+            <TextBox x:Name="txtConductor" Margin="5"/>
+
+            <Label Content="Nombre Cliente"/>
+            <TextBox x:Name="txtCliente" Margin="5"/>
+
+            <Label Content="Fecha y Hora"/>
+            <TextBox x:Name="txtFechaHora" Margin="5"/>
+
+            <Label Content="Peso de Ingreso"/>
+            <TextBox x:Name="txtPesoIngreso" Margin="5"/>
+
+            <Button Content="Guardar" Margin="5" Click="BtnGuardar_Click"/>
+            <Button Content="Volver al Menú" Margin="5" Click="BtnVolver_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>

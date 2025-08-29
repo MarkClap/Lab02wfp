@@ -5,8 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Lab02wpf"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-
+        Title="Login" Height="250" Width="400">
+    <Grid Margin="20">
+        <TextBlock HorizontalAlignment="Center" Padding="9" FontSize="14" FontWeight="Bold">Login</TextBlock>
+        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+            <TextBox x:Name="txtUser" Width="200" Margin="5"/>
+            <PasswordBox x:Name="txtPass" Width="200" Margin="5"/>
+            <Button Content="Ingresar" Width="200" Margin="5" Click="BtnLogin_Click"/>
+        </StackPanel>
     </Grid>
 </Window>

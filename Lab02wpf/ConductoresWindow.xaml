@@ -1,0 +1,20 @@
+﻿<Window x:Class="Lab02wpf.ConductoresWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Registro de Conductores" Height="300" Width="400">
+    <Grid Margin="20">
+        <StackPanel>
+            <Label Content="Nombre Conductor"/>
+            <TextBox x:Name="txtNombreConductor" Margin="5"/>
+
+            <Label Content="Licencia"/>
+            <TextBox x:Name="txtLicencia" Margin="5"/>
+
+            <Label Content="Transporte"/>
+            <TextBox x:Name="txtTransporte" Margin="5"/>
+
+            <Button Content="Guardar" Margin="5" Click="BtnGuardar_Click"/>
+            <Button Content="Volver al Menú" Margin="5" Click="BtnVolver_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>

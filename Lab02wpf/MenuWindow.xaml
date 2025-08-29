@@ -1,0 +1,17 @@
+﻿<Window x:Class="Lab02wpf.MenuWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lab02wpf"
+        mc:Ignorable="d"
+         Title="Menú Principal" Height="300" Width="400">
+    <Grid>
+        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+            <Button Content="Operaciones" Width="200" Margin="5" Click="BtnOperaciones_Click"/>
+            <Button Content="Mantenimientos" Width="200" Margin="5" Click="BtnMantenimientos_Click"/>
+            <Button Content="Reportes" Width="200" Margin="5" Click="BtnReportes_Click"/>
+            <Button Content="Salir" Width="200" Margin="5" Click="BtnSalir_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>
